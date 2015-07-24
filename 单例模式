@@ -32,7 +32,6 @@ class myClass{
         return $this->_str;
     }
 }
-
 $dl = myClass::getObject();
 print_r($dl->getStr());
 静态成员变量$__staticvar主要用来保存该单例的实例化对象.外部访问的时候直接调用该类静态方法将实例化返回,可以避免的其他的类申明该类的实例。
