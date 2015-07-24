@@ -5,7 +5,7 @@ class ctrlf{
     private job = 'PHP Programmer';
     private centralManagerialSkill = 'PHP,Mysql,HTML,CSS,JS,Redis,Linux,';
     private mail = 'lfy3715@gmail.com';
-    private coding = 'https://coding.com/u/ctrlf';
+    private github = 'https://github.com/ctrlfc/';
     private qq = '82074998';
     private company = 'Waiting^_^';
     private sex = 1;
