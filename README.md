@@ -1,5 +1,6 @@
+```
 var equipment = {
-    '输入法': '搜狗输入法',
+    '输入法': '百度输入法',
     '浏览器': 'Chrome',
     'Chrome插件': [
         'AngularJS Batarang',
@@ -16,16 +17,15 @@ var equipment = {
         '广告终结者',
     ],
     '办公': 'Office 365',
-    'Markdown': 'MacDown',
+    'Markdown': 'Quiver',
     '音乐': '网易云音乐',
     '社交': [
-        '钉钉',
         '微信',
         'QQ',    
     ],
     '下载': [
-        '迅雷',
-        'uTorrent'
+        '百度云',
+        '115'
     ],
     '梯子': 'ShadowsocksX',
     '终端': 'iTerm' + 'OhMyZsh',
@@ -33,7 +33,7 @@ var equipment = {
     '效率': [
         'SwitchHosts',
         'Moom',
-        'pomodoro Time',
+        'Pomodoto',
         'MindNode',
         'Dash' + 'alfred',
         'pathfinder',
@@ -42,6 +42,7 @@ var equipment = {
         'SourceTree'
     ],
     'Editor': 'Atom',
+    'IDE': 'WebStorm',
     '抓包': 'Charles',
     '词典': '路欧词典',
     'Atom 插件': [
@@ -63,6 +64,6 @@ var equipment = {
     '切图': [
         '马克鳗',
         'Photoshop',
-        'Sketch'
     ]
 }
+```
