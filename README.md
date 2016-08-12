@@ -28,7 +28,7 @@ var equipment = {
         '115'
     ],
     '梯子': 'ShadowsocksX',
-    '终端': 'iTerm' + 'OhMyZsh',
+    '终端': 'iTerm' + 'OhMyZsh + Go2Shell',
     '压缩': 'BetterZip',
     '效率': [
         'SwitchHosts',
@@ -40,6 +40,8 @@ var equipment = {
         '奇妙清单',
         'xscope',
         'SourceTree'
+        'PDF Expert'
+        'OmniOutliner'
     ],
     'Editor': 'Atom',
     'IDE': 'WebStorm',
