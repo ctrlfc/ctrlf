@@ -1,21 +1,68 @@
-
-class ctrlf{
-
-    private name = '林飞宇';      
-    private job = 'PHP Programmer';
-    private centralManagerialSkill = 'PHP,Mysql,HTML,CSS,JS,Redis,Linux,';
-    private mail = 'lfy3715@gmail.com';
-    private github = 'https://github.com/ctrlfc/';
-    private qq = '82074998';
-    private company = 'Waiting^_^';
-    private sex = 1;
-    private age = 23;
-    private workexperience = '1';
-    
-    public static function code(){       
-
-        echo 'Hello world';
-        
-    }
-
+var equipment = {
+    '输入法': '搜狗输入法',
+    '浏览器': 'Chrome',
+    'Chrome插件': [
+        'AngularJS Batarang',
+        'Clear Cache',
+        'HTML5 Outliner',
+        'JSONView',
+        'LiveReload',
+        'Panda 4',
+        'Postman',
+        'SnappySnippet',
+        'User-Agent Switcher for Chrome',
+        'Vue.js devtools',
+        '一键管理',
+        '广告终结者',
+    ],
+    '办公': 'Office 365',
+    'Markdown': 'MacDown',
+    '音乐': '网易云音乐',
+    '社交': [
+        '钉钉',
+        '微信',
+        'QQ',    
+    ],
+    '下载': [
+        '迅雷',
+        'uTorrent'
+    ],
+    '梯子': 'ShadowsocksX',
+    '终端': 'iTerm' + 'OhMyZsh',
+    '压缩': 'BetterZip',
+    '效率': [
+        'SwitchHosts',
+        'Moom',
+        'pomodoro Time',
+        'MindNode',
+        'Dash' + 'alfred',
+        'pathfinder',
+        '奇妙清单',
+        'xscope',
+        'SourceTree'
+    ],
+    'Editor': 'Atom',
+    '抓包': 'Charles',
+    '词典': '路欧词典',
+    'Atom 插件': [
+        'stylus',
+        'activate-power-mode',
+        'atom-beautify',
+        'atom-jquery-snippets',
+        'autocomplete-paths',
+        'docblockr',
+        'emmet',
+        'file-header',
+        'file-icons',
+        'query-snippets',
+        'vue-snippets',
+        'vue-autocomplete',
+        'todo-show',
+        'language-vie-component',
+    ],
+    '切图': [
+        '马克鳗',
+        'Photoshop',
+        'Sketch'
+    ]
 }
