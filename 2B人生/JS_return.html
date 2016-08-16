@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>return,参数</title>
+  </head>
+  <body>
+    <script>
+    var a = prompt("请输入第一个数");
+    var b = prompt("请输入第二个数");
+    function nonum(a,b){
+      a = Number(a);
+      b = Number(b);
+      if(isNaN(a)||isNaN(b)){
+          return true; //返回 bool;值;表达式(或者当跳出用)
+        }else {
+          return false;
+        }
+    }
+        console.log(nonum());
+     if (nonum(a,b)) { //必须要带参数
+       alert("请输入数字!!");
+     }
+    </script>
+  </body>
+</html>

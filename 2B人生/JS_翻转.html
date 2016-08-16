@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>翻转</title>
+  </head>
+  <body>
+    <script>
+    var s1 = prompt("请输入任意字符");
+    // s1 = s1.split("");
+    // s1fo = s1.slice(0,1).toString();
+    // console.log(s1fo);
+    // s1lo = s1.slice(-1,0);
+    // console.log(s1lo);
+    // s1 = s1.reverse();
+    // console.log(s1);
+    // s1f = s1.slice(0,1).toString().toUpperCase();
+    // console.log(s1f);
+    // s1l = s1.slice(-1,0).toString().toUpperCase();
+    // console.log(s1f);
+    // s2 = s1.toString().replace(s1fo,s1f);
+    // s3 = s1.toString().replace(s1lo,s1l);
+    // console.log(s3);
+    // // s1 = Array(s1);
+    // // s1=s1.reverse();
+    // // console.log(s1);
+    //       // s4 = s3.replace(s1f,s1fm);
+          //s5 = s4.replace(s1l,s1lm);
+    s1 = s1.toLowerCase(); //先全转换小写
+    s1 = s1.split("");//分割
+    var s1f = s1[0];//记录第一位的值
+    var s1fm = s1[0].toUpperCase();//加大
+    var s2 = s1.join().replace(s1f,s1fm);//替换
+    var s3 = s2.split(",").reverse();//再分割翻转
+    var s1l = s3[0];//记录第一位的值
+    var s1lm = s3[0].toUpperCase();//加大
+    var s4 = s3.join().replace(s1l,s1lm);//替换
+    console.log(s4);//ok
+    //理了很久 也不知道对不
+    </script>
+  </body>
+</html>
