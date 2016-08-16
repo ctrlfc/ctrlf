@@ -35,8 +35,24 @@
     var s1l = s3[0];//记录第一位的值
     var s1lm = s3[0].toUpperCase();//加大
     var s4 = s3.join().replace(s1l,s1lm);//替换
-    console.log(s4);//ok
+    var s5 = s4.replace(/,/g,"");//替换","
+    console.log(s5);//ok
     //理了很久 也不知道对不
+    // <script type="text/javascript">
+		// 	  var s1 = prompt("请输入任意字符");
+		// 	  var array1=s1.split('');//分成数组
+		// 	  array1.reverse();//翻转
+		// 	  var s2=array1.join(',');//连接翻转后的数组元素为字符串
+		// 	  var firstletter=s2.substring(0,1);//获取首字母
+		// 	  firstletter=firstletter.toUpperCase();//首字母转大写
+		// 	  var lastletter=s2.substring(s2.length-1);//获取最后一个字符
+		// 	  lastletter=lastletter.toUpperCase();//最后一个字符转大写
+		// 	  var otherletter=s2.substring(1,s2.length-1).toLowerCase();//其他字母转小写
+		// 	  var res=firstletter+otherletter+lastletter;//拼接首字母和其他字母
+		// 	  res=res.replace(/,/g,"");//替换逗号
+		// 	  console.log(res);
+		// </script>
+
     </script>
   </body>
 </html>
