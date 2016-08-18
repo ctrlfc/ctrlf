@@ -34,13 +34,13 @@
     var s3 = s2.split(",").reverse();//再分割翻转
     var s1l = s3[0];//记录第一位的值
     var s1lm = s3[0].toUpperCase();//加大
-    var s4 = s3.join().replace(s1l,s1lm);//替换
-    var s5 = s4.replace(/,/g,"");//替换","
-    console.log(s5);//ok
-    //理了很久 也不知道对不
+    var s4 = s3.join("").replace(s1l,s1lm);//替换
+    // var s5 = s4.replace(/,/g,"");//替换","
+    console.log(s4);//ok
 
 
 
+    //第一种方法 用substring提取两边索引之间的字符
     // 	  var s1 = prompt("请输入任意字符");
     // 	  var array1=s1.split('');//分成数组
     // 	  array1.reverse();//翻转
@@ -53,6 +53,25 @@
     // 	  var res=firstletter+otherletter+lastletter;//拼接首字母和其他字母
     // 	  res=res.replace(/,/g,"");//替换逗号
     // 	  console.log(res);
+
+    //第二种方法 用slice提取中间字符出来
+    // 	var s1 = prompt("请输入任意的字符串");
+  	// //abc
+  	// //字符串本身不能反转，但是数组可以反转；先把字符串转换为数组；
+  	// var arr = s1.split("");
+   // 	arr.reverse();//反转数组中元素；
+   //
+   // 	//转换首尾为大写；
+   // 	var first = arr[0].toUpperCase();
+   // 	var last = arr[arr.length-1].toUpperCase();
+   //
+   // 	//从数组中提取中中间部分
+   // 	arr = arr.slice(1,-1);
+   //
+   // 	//获取中间部分转换为字符串，然后转换为小写
+   // 	var content = arr.join("").toLowerCase();
+   //
+   // 	console.log(first+content+last);
     </script>
   </body>
 </html>
