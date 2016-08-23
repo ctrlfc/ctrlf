@@ -1,4 +1,4 @@
-```
+
 var equipment = {
     '输入法': '百度输入法',
     '浏览器': 'Chrome',
@@ -43,11 +43,14 @@ var equipment = {
         'PDF Expert'
         'OmniOutliner'
     ],
-    'Editor': 'Atom',
+    'Editor': [
+        ~~'Atom',~~
+        'Sublime Text'
+    ],
     'IDE': 'WebStorm',
     '抓包': 'Charles',
     '词典': '路欧词典',
-    'Atom 插件': [
+    ~~'Atom 插件': [
         'stylus',
         'activate-power-mode',
         'atom-beautify',
@@ -62,10 +65,48 @@ var equipment = {
         'vue-autocomplete',
         'todo-show',
         'language-vie-component',
-    ],
+    ],~~
+    'Sublime Text 插件': [
+       "Alignment",
+        "All Autocomplete",
+        "AutoFileName",
+        "Autoprefixer",
+        "BracketHighlighter",
+        "CodeFormatter",
+        "Color Highlighter",
+        "Colorsublime",
+        "ConvertToUTF8",
+        "CSS3",
+        "CSScomb",
+        "DocBlockr",
+        "Emmet",
+        "Emmet Css Snippets",
+        "FileDiffs",
+        "FileHeader",
+        "GitGutter",
+        "HTML Snippets",
+        "HTML-CSS-JS Prettify",
+        "HTML5",
+        "HTMLAttributes",
+        "JavaScript Completions",
+        "JavaScriptNext - ES6 Syntax",
+        "jQuery",
+        "LiveReload",
+        "Markdown Extended",
+        "Markdown Preview",
+        "MarkdownEditing",
+        "Material Theme",
+        "One Dark Material - Theme",
+        "Package Control",
+        "Pretty JSON",
+        "Seti_UI",
+        "SublimeLinter",
+        "SublimeLinter-csslint",
+        "SublimeLinter-jshint",
+        "View In Browser"
+    ]
     '切图': [
         '马克鳗',
         'Photoshop',
     ]
 }
-```
