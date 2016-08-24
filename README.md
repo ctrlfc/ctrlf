@@ -67,7 +67,7 @@ var equipment = {
         'language-vie-component',
     ],~~
     'Sublime Text 插件': [
-       "Alignment",
+        "Alignment",
         "All Autocomplete",
         "AutoFileName",
         "Autoprefixer",
@@ -99,7 +99,6 @@ var equipment = {
         "One Dark Material - Theme",
         "Package Control",
         "Pretty JSON",
-        "Seti_UI",
         "SublimeLinter",
         "SublimeLinter-csslint",
         "SublimeLinter-jshint",
