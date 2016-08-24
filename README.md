@@ -99,10 +99,10 @@ var equipment = {
         "One Dark Material - Theme",
         "Package Control",
         "Pretty JSON",
+        "SideBarEnhancements",  
         "SublimeLinter",
         "SublimeLinter-csslint",
         "SublimeLinter-jshint",
-        "View In Browser"
     ]
     '切图': [
         '马克鳗',

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>鼠标滑动事件</title>
+    <style>
+    li {
+        background-color: #eee;
+        height: 25px;
+        margin-top: 2px;
+    }
+    </style>
+    <script type="text/javascript">
+    //添加鼠标移入移出事件
+    function fun() {
+        //获取所有li节点
+        var list = document.getElementById("uid").getElementsByTagName("li");
+        //遍历所有li节点
+        for (var i = 0; i < list.length; i++) {
+            //添加鼠标移入事件
+            list[i].onmouseover = function() {
+                    this.style.backgroundColor = "#ffcc00";
+                    this.style.fontSize = "20px";
+                };
+                //添加鼠标移出事件
+            list[i].onmouseout = function() {
+                this.style.backgroundColor = "#eeeeee";
+                this.style.fontSize = "16px";
+            };
+        }
+    }
+    </script>
+</head>
+
+<body onload="fun()">
+    <h2>JavaScript实例--JS中事件</h2>
+    <ul id="uid">
+        <li>aaaaaaaaaaaaaaa</li>
+        <li>aaaaaaaaaaaaaaa</li>
+        <li>aaaaaaaaaaaaaaa</li>
+        <li>aaaaaaaaaaaaaaa</li>
+        <li>aaaaaaaaaaaaaaa</li>
+        <li>aaaaaaaaaaaaaaa</li>
+        <li>aaaaaaaaaaaaaaa</li>
+        <li>aaaaaaaaaaaaaaa</li>
+    </ul>
+    <table height="360" width="480">
+    </table>
+</body>
+
+</html>
