@@ -37,3 +37,10 @@
 .group{
     *zoom: 1;
 }
+
+/* 进化 */
+.group:before,.group:after{
+    clear: both;
+    content:"";
+    display: table;
+}
