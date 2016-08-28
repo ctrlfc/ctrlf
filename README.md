@@ -96,7 +96,6 @@ var equipment = {
         "Markdown Preview",
         "MarkdownEditing",
         "Material Theme",
-        "One Dark Material - Theme",
         "Package Control",
         "Pretty JSON",
         "SideBarEnhancements",  
