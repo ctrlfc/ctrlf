@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>图片轮播(往返)</title>
+    <style type="text/css">
+    /* reset  */
+
+    body,
+    div,
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+    }
+    /* 清除ul样式 圆点 距离*/
+    /* list-style-type */
+
+    ul {
+        list-style-type: none;
+    }
+    /* 设置body */
+
+    body {
+        background: #666;
+        text-align: center;
+        /* 字体12px/行高20px */
+        font: 12px/20px Arial;
+    }
+    /* 设置box div */
+    /* box=>list=>ul=>li */
+
+    #box {
+        /* 设置一个相对定位,好使box内元素定位 */
+        position: relative;
+        margin: 10px auto;
+        width: 492px;
+        height: 172px;
+        /* 放图片的框 */
+        border: 8px solid #fff;
+        /* CSS3 border属性 圆角 */
+        border-radius: 5px;
+        /* 最好和图片一样大或者差不多 */
+        background: #fff;
+        cursor: pointer;
+    }
+    /* 列表div */
+
+    #box .list {
+        position: relative;
+        /* 规定高宽 */
+        width: 490px;
+        height: 170px;
+        /* 万一有超出的隐藏*/
+        overflow: hidden;
+    }
+    /* div内的无序列表ul */
+
+    #box .list ul {
+        /* 子绝父相 */
+        position: absolute;
+        /* 上左方位贴死 */
+        top: 0;
+        left: 0;
+    }
+    /* 列li */
+
+    #box .list li {
+        /* 高宽为父盒子高宽 */
+        width: 490px;
+        height: 170px;
+        /* 超出隐藏 */
+        overflow: hidden;
+    }
+    /* 下标 */
+    /* box=>count=>li */
+
+    #box .count {
+        position: absolute;
+        /* 居右 */
+        right: 0;
+        /* 居下 */
+        bottom: 5px;
+    }
+    /*     #box .count ul {
+        clear: both;
+        display: table;
+        content: "";
+    } */
+    /* 下标li*/
+
+    #box .count li {
+        /* 左浮动 */
+        float: left;
+        /* 右边距 */
+        margin-right: 5px;
+        overflow: hidden;
+        width: 20px;
+        height: 20px;
+        background: #F90;
+        /* 不透明度 */
+        opacity: 0.7;
+        /* 兼容性? */
+        filter: opacity(70%);
+        border-radius: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* 点击后改变的样式 */
+
+    #box .count li.current {
+        background: #f60;
+        font-weight: 700;
+        opacity: 1;
+        filter: opacity(100%);
+        color: #fff;
+    }
+    /*     #tmp {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background: red;
+    } */
+    </style>
+</head>
+
+<body>
+    <div id="box">
+        <div class="list">
+            <ul>
+                <li><img src="01.jpeg" alt="图片轮播"></li>
+                <li><img src="02.jpeg" alt="图片轮播"></li>
+                <li><img src="03.jpeg" alt="图片轮播"></li>
+                <li><img src="04.jpeg" alt="图片轮播"></li>
+                <li><img src="05.jpeg" alt="图片轮播"></li>
+            </ul>
+        </div>
+    </div>
+    <script>
+    window.onload = function() {
+        // 找到各对象
+        var Box = document.querySelector("#box");
+        var List = Box.querySelectorAll("ul")[0];
+        var Img = Box.querySelectorAll("img");
+        // 定义变量
+        var timer = playTimer = null;
+        var Btn = null;
+        var index = i = 0;
+        var borDer = true;
+        var Tmp = [];
+
+        // 动态遍历img每页生成按钮
+        for (i = 0; i < Img.length; i++) Tmp.push("<li>" + (i + 1) + "</li>");
+
+        //插入按钮
+        var Count = document.createElement("ul");
+        Count.className = "count";
+        // 数组合成字符串
+        Count.innerHTML = Tmp.join("");
+        Box.appendChild(Count);
+        //找到各个ul的li存储在btn变量中 这是一个数组
+        Btn = Box.querySelectorAll("ul")[1].querySelectorAll("li");
+
+
+        // 初始化
+        cutover();
+
+        // 轮播驱动
+        function cutover() {
+            for (var i = 0; i < Btn.length; i++) Btn[i].className = "";
+            Btn[index].className = "current";
+            //只读属性 返回像素高度
+            startMove(-(index * Img[0].offsetHeight));
+        }
+
+        //下标手滑动切换
+        for (var i = 0; i < Btn.length; i++) {
+            Btn[i].index = i;
+            // 滑动到的时候执行函数
+            Btn[i].onmouseover = function() {
+                index = this.index;
+                cutover()
+            }
+        }
+
+//var b = true;
+//b ? i++ : i--;
+//i <= 0 && (i = 0, b = true);
+//i >= t.length - 1 && (i = t.length - 1, b = false);
+
+//()优先级最高,其次 >=,最后才是&&
+//i++先赋值i后++,++i先++赋值++后的
+        //下标自动循环切换
+        function next() {
+            borDer ? index++ : index--;
+            index >= Btn.length - 1 && (index = Btn.length - 1, borDer = false);
+            index <= 0 && (index = 0, borDer = true);
+            cutover()
+            console.log(index);
+        }
+
+        //设置计时器 3000毫秒 next函数
+        playTimer = setInterval(next, 3000);
+
+        //图片启动器
+        function startMove(Target) {
+            // 清除上一个计时器
+            clearInterval(timer);
+            timer = setInterval(function() {
+                doMove(Target)
+            }, 30)
+        }
+
+        //图片轮播核心
+        function doMove(Target) {
+            // -(index * Img[0].offsetHeight)
+            // -自身的总高度(固定的)-距离父盒子的高度
+            var Speed = (Target - List.offsetTop) / 10;
+            // console.log(Speed);
+            // floor()总是把数字变得越来越小，而ceil()总是把数字变大。
+            // 正负都取对称等
+            // 速度
+            Speed = Speed > 0 ? Math.ceil(Speed) : Math.floor(Speed);
+
+
+            //高度
+            List.offsetTop == Target ? clearInterval(timer) : List.style.top = List.offsetTop + Speed + "px"
+            // console.log(List.offsetTop);
+        }
+
+
+
+        // 滑入
+        Box.onmouseover = function() {
+            clearInterval(playTimer)
+        };
+
+        // 滑出
+        Box.onmouseout = function() {
+            playTimer = setInterval(next, 3000);
+        }
+    };
+    </script>
+</body>
+
+</html>

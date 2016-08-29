@@ -71,7 +71,9 @@ var equipment = {
         "All Autocomplete",
         "AutoFileName",
         "Autoprefixer",
+        "Bootstrap 3 Snippets",
         "BracketHighlighter",
+        "Codecs33",
         "CodeFormatter",
         "Color Highlighter",
         "Colorsublime",
@@ -98,10 +100,12 @@ var equipment = {
         "Material Theme",
         "Package Control",
         "Pretty JSON",
-        "SideBarEnhancements",  
+        "Sass",
+        "SCSS",
+        "SideBarEnhancements",
         "SublimeLinter",
         "SublimeLinter-csslint",
-        "SublimeLinter-jshint",
+        "SublimeLinter-jshint"
     ]
     '切图': [
         '马克鳗',
