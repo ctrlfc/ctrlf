@@ -208,7 +208,7 @@
             // 清除上一个计时器
             clearInterval(timer);
             timer = setInterval(function() {
-                doMove(Target)
+                howtoMove(Target)
             }, 30)
         }
 
@@ -241,6 +241,19 @@
             playTimer = setInterval(next, 3000);
         }
     };
+// 第一部分
+    // 找到各对象
+    // 定义变量
+    // 动态遍历img每页生成按钮
+    // 插入按钮
+// 第二部分
+    // 初始化(驱动)
+    // 轮播驱动(执行样式改变和图片启动器)
+    // 下标手滑动切换(调用驱动,找按钮length)
+    // 设置计时器(启动自动循环)
+    // 下标自动循环切换(调用驱动,找按钮length)
+    // 图片启动器(随下标改变而改变,调用核心)
+    // 图片轮播核心
     </script>
 </body>
 
