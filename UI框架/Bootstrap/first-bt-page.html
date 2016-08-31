@@ -5,13 +5,25 @@
     <meta charset="utf-8">
     <title>first bt page</title>
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.css"/>
 </head>
 
 <body>
+
     <div class="container-fluid">
         <h2 class="text-center">居中咯</h2>
         <!-- button由上下文决定是行内还是块级元素 -->
-        <button type="submit" class="btn btn-block">Link</button>
+        <div class="row">
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Link</button>
+            </div>
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-block btn-info">Info</button>
+            </div>
+            <div class="col-xs-4">
+                <button type="submit" class="btn btn-block btn-danger">Delete</button>
+            </div>
+        </div>
         <script src="js/jquery-3.1.0.js"></script>
         <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
     </div>
