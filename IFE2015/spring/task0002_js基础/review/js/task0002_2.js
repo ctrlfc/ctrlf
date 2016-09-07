@@ -9,4 +9,6 @@
  *
  */
 
-function format()
+function format(source, opts) {
+	source = String(source);
+}
