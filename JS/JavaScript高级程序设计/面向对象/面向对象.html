@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>面向对象</title>
+    <link rel="stylesheet" href="../public/style/reset.css">
+</head>
+<body>
+<script src="../public/js/jquery-3.1.0.js"></script>
+<script>
+//    var person = new Object();
+//    person.name = "ctrlf";
+//    person.age = 18;
+//    person.job = "Front-end Engineer";
+//    person.sayName = function () {
+//        alert(this.name);
+//    };
+
+//对象字面量
+    var person = {
+        name: "ctrlf",
+        age: 18,
+        job: "Front-end Engineer",
+        sayName: function () {
+            alert(this.name);
+        }
+    };
+    console.log(person);
+    person.sayName();
+</script>
+</body>
+</html>
