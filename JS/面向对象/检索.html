@@ -28,6 +28,19 @@
         };
         stooge["first name"];
         flight.departure.IATA;
+        stooge["middle-name"] //undefined
+        flight.status         //undefined
+        stooge["FIRST-NAME"]  //undefined
+
+        /**
+         * ||运算符可以填充默认值(取不到值的时候)
+         * &&避免取值undefined成员属性TypeError异常
+         */
+        var middle = stooge["middle-name"]||"(none)";
+        var status = flight.status || "unknown";
+        flight.equipment //undefined
+        flight.equipment.model //throw "TypeError"
+        flight.equipment && flight.equipment.model //undefined
     </script>
 </head>
 <body>
