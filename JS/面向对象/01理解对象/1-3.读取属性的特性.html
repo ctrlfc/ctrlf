@@ -5,7 +5,25 @@
     <title>读取属性的特性</title>
     <script>
         var book = {};
-        Object.defineProperty()
+        Object.definePropeties(book, {
+        	_year:{
+        		value:2004
+        	},
+        	edition:{
+        		value:1
+        	},
+        	year:{
+        		get:function() {
+        			return this._year;
+        		},
+        		set:function(newValue){
+        			if (newValue>2004) {
+        				this._year = newValue;
+        				this.edition += newValue - 2004;
+        			}
+        		}
+        	}
+        });
     </script>
 </head>
 <body>
