@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="vue.js"></script>
+    <title>声明式渲染(响应式)</title>
+    <style>
+        #app,
+        #app-2 {
+            font-size: 40px;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+<div id="app">
+    {{ message }}
+</div>
+<div id="app-2">
+    <!--v-bind:指令-->
+    <span v-bind:title="message">
+        Hover ...
+    </span>
+</div>
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello Vue.js!'
+        }
+    });
+
+//    它们会在渲染过的 DOM 上应用特殊的响应式行为。这个指令的简单含义是说：将这个元素节点的 title 属性和 Vue 实例的 message 属性绑定到一起。
+    var app2 = new Vue({
+        el: '#app-2',
+        data: {
+            message: 'You loaded this page on' + new Date()
+        }
+    });
+</script>
+</body>
+
+</html>
