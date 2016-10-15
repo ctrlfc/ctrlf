@@ -29,7 +29,36 @@
      * size():返回队列包含的元素个数,与数组的lenght类似
      */
 
+    //被其他函数调用
+    //新项只能添加队列末尾(类似push)
+    this.enqueue = function(element) {
+        items.push(element);
+    };
 
+    //移除项(类似shift:从0位删除)
+    this.dequeue = function() {
+        return items.shift();
+    };
+
+    //好想知道最前面的项(=_=)
+    this.front = function() {
+        return items[0];
+    };
+
+    //判断是否是空
+    this.isEmpty = function() {
+        return items.length === 0;
+    }
+
+    //size方法
+    this.size = function() {
+        return items.length;
+    };
+
+    //print方法
+    this.print = function() {
+        console.log(items.toString());
+    };
     </script>
 </body>
 

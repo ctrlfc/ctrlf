@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>移除</title>
+</head>
+
+<body>
+    <script>
+    /**
+     * 移除第一:
+     * 移动任意:
+     * remove:移除任意一个;根据元素值移除
+     */
+
+    this.removeAt = function(position) {
+        //检测越界值
+        if (position > -1 && position < length) { //(1)
+            var current = head, //(2)
+                previous, //(3)
+                index = 0; //(4)
+
+            //移除第一项
+            if (position === 0) { //(5)
+                head = current.next;
+            } else {
+                while (index++ < position) { //(6)
+                    previous = current; //(7)
+                    current = current.next; //(8)
+                }
+
+                //将previous与current的下一项链接起来:跳过current,从而移除它
+                previous.next = current.next; //(9)
+            }
+            length--; //(10)
+            return current.element;
+        } else {
+            return null; //(11)
+        }
+    };
+    </script>
+</body>
+
+</html>
