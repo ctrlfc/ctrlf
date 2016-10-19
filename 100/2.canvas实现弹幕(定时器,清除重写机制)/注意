@@ -1,9 +1,0 @@
-EventTarget.addEventListener() 方法将指定的事件监听器注册到 EventTarget 上，当该对象触发指定的事件时，指定的回调函数就会被执行。 事件目标可以是一个文档上的元素 Document 本身，或者任何能支持事件的对象（比如 XMLHttpRequest）。
-就是添加(绑定)方法
-
-getContext('2d')开画布
-
-cx.fillStyle设置颜色
-cx.fillText设置文字
-
-message的创建,传参,执行过程
