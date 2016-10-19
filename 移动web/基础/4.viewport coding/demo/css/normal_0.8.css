@@ -1,6 +1,5 @@
-<!DOCTYPE html>
 /** also for the fu*k IE */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
     display: block;
 }
 ul,li,p{
@@ -17,9 +16,6 @@ ul,li,p{
 	clear: both;
 	height: 0;
 }
-.hidden{
-	display: none!important;
-}
 /** 弹性图片的设计*/
 body{
 	font: 16px '微软雅黑';
@@ -35,12 +31,16 @@ a{
 }
 
 #pagewrap {
-	width: 100%;
+	width: 1024px;
 	margin: 0 auto;
+	padding: 0 20px;
+	border: 5px solid;
+	border-color: transparent black transparent black;
 	position: relative;
 	box-sizing: border-box;
 }
 .header {
+	height: 160px;
 	margin-bottom: 15px;
 }
 .header .betaIcon{
@@ -54,23 +54,23 @@ a{
 	position: absolute;
 	margin-left: 8px;
 }
-.header #site-logo {
+.header .site-logo {
 	text-shadow: 1px 1px 5px rgba(187, 187, 97, 0.71);
 	position: relative;
-	font-size: 24px;
-	text-indent:10px;
 }
 
 #main-nav {
- 	width: 100%;
+ 	width: 1024px;
+ 	margin-left: -25px;
 	position: relative;
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#B9B9B9), to(#6A6A6A));*/
 	background: black;
 	line-height: 1.4;
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, .3), 0 1px 1px rgba(0, 0, 0, .4);
 }
 #main-nav li{
 	float: left;
-	font-size: 12px;
+	margin-left: 20px;
 }
 #main-nav li a{
 	color: white;
@@ -84,7 +84,7 @@ a{
 }
 #main-nav .search{
 	padding-top: 9px;
-	margin-right: 5px;
+	margin-right: 25px;
 	float: right;
 }
 #main-nav .search input{
@@ -98,8 +98,8 @@ a{
 }
 
 .sidebar {
-/*	width: 280px;
-	float: right;*/
+	width: 280px;
+	float: right;
 }
 .sidebar .widget{
 	background: #FFFCF0;
@@ -119,7 +119,7 @@ a{
 }
 .sidebar .widget li:last-child{
 	border-radius: 0 0 8px 8px;
-
+	
 }
 .sidebar .folder li{
 	border-bottom: 1px solid #DDD;
@@ -163,7 +163,7 @@ a{
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	width: 230px;
+	width: 230px;		
 }
 .sidebar .comment .desc span:nth-child(2):hover{
 	text-decoration: underline;
@@ -172,38 +172,32 @@ a{
 
 
 .content {
-/*	width: 600px;
-	float: left;*/
+	width: 600px;
+	float: left;
 }
 .content #slider{
 	background: rgba(212, 255, 202, 0.2);
 	border-radius: 20px;
-}
-.content #slider img{
-	width: 300px;
-	height: 177px;
 }
 .content .article{
 	padding-bottom: 10px;
 	margin: 20px auto 40px;
 }
 .content .article .img{
-	width: 320px;
-	height: 125px;
+	height: 250px;
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 10px;
 }
 .content .article .img img{
-	width: 280px;
-	height: 187px;
-	display: block;
-	margin: 0 auto;
+	width: 600px;
+	position: absolute;
+	top: -25%;		
 }
 .content .article .img .tips{
 	position: absolute;
-	top: 0;
-	color: #fff;
+	top: 10%;
+	color: #fff;		
 }
 .content .article .img .date{
 	float: left;
@@ -217,21 +211,18 @@ a{
 }
 
 .content .article .author{
-	width: 40px;
-	height: 40px;
+	width: 80px;
 	float: left;
-	margin: 0 10px 5px 20px;
+	margin: 0 20px 5px 0;
 }
 .content .article .author img{
-	width: 40px;
-	height: 40px;
+	width: 80px;
 }
 .content .article .title{
 	font-weight: bolder;
-	font-size: 16px;
+	font-size: 19px;
 	text-shadow: 0 0 5px rgba(48, 48, 48, 0.6);
 	margin-bottom: 5px;
-	padding-right: 5px;
 	cursor: pointer;
 }
 .content .article .title:hover{
@@ -246,7 +237,6 @@ a{
 	text-decoration: underline;
 }
 .content .article .nums{
-	display: none;
 	margin-bottom: 5px;
 	height: 21px;
 	line-height: 21px;
@@ -272,7 +262,7 @@ a{
 	border-bottom: 2px solid dimGray;
 	width: 400px;
 	margin-left: 200px;
-	display: none;
+	display: block;
 }
 
 #footer {
@@ -281,7 +271,7 @@ a{
 	color: #838383;
 	padding: 20px 0;
 	text-align: center;
-
+	width: 1030px;
 	margin-left: -25px;
 	margin-bottom: -5px;
 }

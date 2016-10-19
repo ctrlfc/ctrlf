@@ -1,0 +1,14 @@
+方案一:根据设备实际宽度来设计
+比如:手机宽320px,就设计320px
+
+方案二:1px=1dp
+缩放0.5.根据设备的物理像素dp等于抽象px来设计.
+1像素边框和高清图不需要处理
+
+
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+
+
+width=device-width,initial-scala=1,user-scalable=no
+
+宽度=设备宽度,缩放比为1,用户是否能缩放

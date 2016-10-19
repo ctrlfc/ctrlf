@@ -1,0 +1,8 @@
+//<meta name="viewport" content="name=value,name=value">
+
+
+width:设置布局viewport的特定值("device-width")
+initial-scale:设置页面的初始缩放
+minimum-sacle:最小缩放
+maximum-scale:最大缩放
+user-scalable:用户能否缩放

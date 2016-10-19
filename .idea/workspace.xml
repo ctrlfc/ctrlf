@@ -2,16 +2,142 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be30a8b9-f70e-4b8a-85d7-fe9f27e96dba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js高级程序设计/demo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js高级程序设计/demo2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js高级程序设计/函数表达式/模仿块级作用域.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js高级程序设计/函数表达式/闭包/关于this对象/this.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/handlebars-v4.0.5.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js高级程序设计/函数表达式/闭包.html" afterPath="$PROJECT_DIR$/js高级程序设计/函数表达式/闭包/闭包.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/wi度量比上db布局.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/face16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/icons-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/img1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/img2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/img3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/img4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/img5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/slider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/slider_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/tuan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/where.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/images/windywei_s.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5秘籍/html5简介/故事.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/css/normal_0.8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/demo/demo0.8_pc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/移动web/基础/viewport视图/viewport.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/定位/位置/position.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/定位/位置/style/position.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/定位/浮动/dw.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/定位/浮动/style/dw.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/层叠/css_stack_priority.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/布局简介/css_layout.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/盒模型/css_borderpaddingmargin.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/继承/css_inherit.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSS/选择器/css_selector.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/bootstrap-3.3.5-dist/js/npm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/first-bt-page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/HELP-US-OUT.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/font-awesome-4.6.3/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/UI框架/Bootstrap/js/jquery-3.1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css3/像素/demo.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js高级程序设计/demo.html" afterPath="$PROJECT_DIR$/js高级程序设计/函数表达式/demo/demo.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/js高级程序设计/demo2.html" afterPath="$PROJECT_DIR$/js高级程序设计/函数表达式/demo/demo2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/pixel像素/Piexl.html" afterPath="$PROJECT_DIR$/移动web/基础/pixel像素/Piexl.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/pixel像素/dp2px.PNG" afterPath="$PROJECT_DIR$/移动web/基础/pixel像素/dp2px.PNG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/pixel像素/换算关系.png" afterPath="$PROJECT_DIR$/移动web/基础/pixel像素/换算关系.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/css/normal_0.8.css" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/css/normal_0.8.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/demo0.8_pc.html" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/demo0.8_pc.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face01.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face02.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face03.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face04.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face05.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face06.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face06.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face07.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face07.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face08.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face08.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face09.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face09.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face10.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face11.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face12.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face13.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face14.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face15.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face15.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/face16.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/face16.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/flower.png" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/flower.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/icons-white.png" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/icons-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/icons.png" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/img1.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/img1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/img2.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/img2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/img3.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/img3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/img4.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/img4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/img5.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/img5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/slider.png" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/slider.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/slider_p.png" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/slider_p.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/tuan.png" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/tuan.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/where.png" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/where.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/demo/images/windywei_s.jpg" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/images/windywei_s.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/移动web/viewport视图/viewport.html" afterPath="$PROJECT_DIR$/移动web/基础/viewport meta标签/meta.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js数据结构和算法/队列/创建队列/创建队列.html" afterPath="$PROJECT_DIR$/js数据结构和算法/队列/创建队列/创建队列.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue/vue.md" afterPath="$PROJECT_DIR$/vue/vue.md" />
     </list>
     <ignored path="ctrlf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,41 +160,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="小结.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/小结/小结.html">
+      <file leaf-file-name="故事.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5秘籍/html5简介/故事.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="正强的模块.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/私有变量/增强的模块模式/正强的模块.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1885">
-              <caret line="65" column="88" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="函数表达式.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/函数表达式.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="模块.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/私有变量/模块模式/模块.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+            <state relative-caret-position="290">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -122,6 +218,9 @@
         <option value="$PROJECT_DIR$/js高级程序设计/函数表达式/私有变量/模块模式/模块.html" />
         <option value="$PROJECT_DIR$/js高级程序设计/函数表达式/私有变量/增强的模块模式/正强的模块.html" />
         <option value="$PROJECT_DIR$/js高级程序设计/函数表达式/小结/小结.html" />
+        <option value="$PROJECT_DIR$/移动web/基础/viewport meta标签/meta.html" />
+        <option value="$PROJECT_DIR$/js/函数表达式/函数.js" />
+        <option value="$PROJECT_DIR$/html5秘籍/html5简介/故事.html" />
       </list>
     </option>
   </component>
@@ -175,7 +274,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,172 +282,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js高级程序设计" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js高级程序设计" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="函数表达式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js高级程序设计" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="函数表达式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="私有变量" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js高级程序设计" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="函数表达式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="私有变量" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="静态私有变量" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js高级程序设计" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="函数表达式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="私有变量" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="模块模式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js高级程序设计" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="函数表达式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="私有变量" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="增强的模块模式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ctrlf" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js高级程序设计" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="函数表达式" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="小结" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,11 +300,15 @@
     <property name="SearchEverywhereHistoryKey" value="codeg&#9;ACTION&#9;CodeGlance.toggle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/移动web/基础/viewport meta标签" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js高级程序设计/函数表达式/demo" />
+      <recent name="$PROJECT_DIR$/移动web/基础/viewport meta标签" />
+      <recent name="$PROJECT_DIR$/移动web/基础" />
       <recent name="$PROJECT_DIR$/js高级程序设计/函数表达式/闭包" />
       <recent name="$PROJECT_DIR$/vue" />
-      <recent name="$PROJECT_DIR$/大型框架/vue2.0" />
-      <recent name="$PROJECT_DIR$/thinkjs/demo/src/config" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.demo.html">
@@ -385,7 +324,7 @@
     <configuration default="false" name="模仿块级作用域.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ctrlf/js高级程序设计/函数表达式/模仿块级作用域.html">
       <method />
     </configuration>
-    <configuration default="false" name="demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ctrlf/js高级程序设计/demo.html">
+    <configuration default="false" name="demo.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ctrlf/js高级程序设计/函数表达式/demo/demo.html">
       <method />
     </configuration>
     <configuration default="true" type="BashConfigurationType" factoryName="Bash">
@@ -514,11 +453,14 @@
       <workItem from="1476364449115" duration="210000" />
       <workItem from="1476407318349" duration="12468000" />
       <workItem from="1476444471304" duration="232000" />
+      <workItem from="1476548291350" duration="4404000" />
+      <workItem from="1476673825563" duration="2000" />
+      <workItem from="1476673830147" duration="356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57173000" />
+    <option name="totallyTimeSpent" value="61935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1276" height="777" extended-state="6" />
@@ -542,6 +484,25 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43079096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1731975" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43079096" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -616,48 +577,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/移动web/pixel像素/Piexl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa/node_modules/koa/package.json" />
-    <entry file="file://$PROJECT_DIR$/koa/node_modules/koa/test.js" />
-    <entry file="file://$PROJECT_DIR$/koa/router/index.js" />
-    <entry file="file://$PROJECT_DIR$/koa/config/local.js" />
-    <entry file="file://$PROJECT_DIR$/koa/app.js" />
-    <entry file="file://$PROJECT_DIR$/koa/controller/index.js" />
-    <entry file="file://$PROJECT_DIR$/koa/demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa/config/config.js" />
-    <entry file="file://$PROJECT_DIR$/vue/vue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="7386" column="7" selection-start-line="7386" selection-start-column="7" selection-end-line="7386" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js数据结构和算法/js简介/js基础/变量.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js数据结构和算法/js简介/js基础/操作符.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1777">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js数据结构和算法/js简介/js基础/相等操作符(==和===).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1264">
@@ -841,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="106" column="29" selection-start-line="106" selection-start-column="29" selection-end-line="106" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,15 +781,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1349">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js高级程序设计/demo2.html">
+    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/demo/demo2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -880,39 +795,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-131">
           <caret line="67" column="20" selection-start-line="67" selection-start-column="20" selection-end-line="67" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js高级程序设计/demo.html">
+    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/demo/demo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/小结/小结.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/私有变量/增强的模块模式/正强的模块.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1885">
-          <caret line="65" column="88" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/函数表达式.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,6 +809,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="75" column="61" selection-start-line="75" selection-start-column="61" selection-end-line="75" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/函数表达式.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/私有变量/增强的模块模式/正强的模块.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="65" column="88" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/css/normal_0.8.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web/基础/viewport meta标签/demo/demo0.8_pc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web/基础/viewport meta标签/wi度量比上db布局.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web/基础/viewport视图/viewport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web/基础/viewport meta标签/meta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/移动web/基础/pixel像素/Piexl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数表达式/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数表达式/函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数表达式/闭包.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数表达式/作用域.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/函数表达式/回调函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js高级程序设计/函数表达式/小结/小结.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html5秘籍/html5简介/故事.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding />
         </state>
       </provider>

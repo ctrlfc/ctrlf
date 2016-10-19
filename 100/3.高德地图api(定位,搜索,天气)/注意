@@ -1,0 +1,15 @@
+Geolocation.getCurrentPosition() 方法用来获取设备当前位置。
+
+语法
+navigator.geolocation.getCurrentPosition(success, error, options)
+参数
+
+success
+成功得到位置信息时的回调函数，使用Position 对象作为唯一的参数。
+error 可选
+获取位置信息失败时的回调函数，使用 PositionError 对象作为唯一的参数，这是一个可选项。
+options 可选
+一个可选的PositionOptions 对象。
+
+
+注意细节啊,addEventListener不上肯定因为上一个没获取到

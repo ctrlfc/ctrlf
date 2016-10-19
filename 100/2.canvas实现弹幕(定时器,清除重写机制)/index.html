@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>弹幕</title>
+    <style>
+        #canvas {
+            height: 400px;
+            width: 700px;
+            background: #eeeeee;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<br>
+<input name="message" placeholder="请输入弹幕" type="text">
+<input type="button" value="发送弹幕">
+<script>
+
+    //    先获取吧
+    var canvas = document.querySelector('#canvas');
+    var srk = document.querySelector('input[name=message]');
+    var btn = document.querySelector('input[type=button]');
+    //    得接一个timeid吧
+    var timeId;
+    //    添加点击事件,不然没法用啊
+    btn.addEventListener('click', function () {
+        clearInterval(timeId);
+//        获取输入框内容
+        var message = srk.value;
+//        获取宽度
+        var canvasW = moveX = canvas.width;
+//        开画布
+        var cx = canvas.getContext('2d');
+
+//        文字颜色,初始位置
+        cx.fillStyle = 'blue';
+        cx.fillText(message, moveX - 50, 100);
+
+//        移动
+        move(message);
+//        清空输入框
+        srk.value = '';
+
+        function move() {
+            timeId = setInterval(function () {
+                moveX--;
+//              清除屏幕
+                cx.clearRect(0, 0, 700, 400);
+
+                console.log(moveX);
+                if (moveX > 0) {
+                    cx.fillStyle = 'blue';
+                    cx.fillText(message, moveX - 50, 100);
+                } else {
+//                    重置定时器,重置位置
+                    clearInterval(timeId);
+                    moveX = canvasW;
+                }
+            },10);
+        }
+    });
+</script>
+</body>
+</html>

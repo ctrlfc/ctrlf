@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位</title>
+</head>
+<body>
+<output></output>
+<script>
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(onSuccess);
+
+        function onSuccess(position) {
+            document.querySelector('output').innerHTML = '经度:' + position.coords.longitude + ",纬度:" + position.coords.latitude;
+        }
+    }
+</script>
+</body>
+</html>

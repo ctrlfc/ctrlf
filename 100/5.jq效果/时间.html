@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="public/style/reset.css">
+    <link rel="stylesheet" href="public/style/bootstrap.min.css">
+    <title>时间</title>
+</head>
+
+<body>
+    <div class="showtime"></div>
+    <script src="public/js/jquery-3.1.0.js"></script>
+    <script>
+    function show() {
+        var dateb = new Date();
+        var yy = dateb.getFullYear();
+        var mm = dateb.getMonth() + 1;
+        var dd = dateb.getDay();
+
+        var hh = dateb.getHours();
+        var mmm = dateb.getMinutes();
+        var ss = dateb.getSeconds();
+
+        if (hh < 10) {
+            hh = "0" + hh;
+        }
+        if (mmm < 10) {
+            mmm = "0" + mmm;
+        }
+        if (ss < 10) {
+            ss = "0" + ss;
+        }
+
+       	var timeto = "当前时间为"+yy+"年"+mm+"月"+dd+"日"+hh+"时"+mmm+"分"+ss+"秒";
+
+       	$(".showtime").text(timeto);
+    }
+
+    setInterval(show, 1000);
+    </script>
+</body>
+
+</html>

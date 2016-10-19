@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="public/style/reset.css">
+    <link rel="stylesheet" href="public/style/bootstrap.min.css">
+    <title>悬停</title>
+    <style type="text/css">
+    ul {
+        width: 200px;
+    }
+
+    ul li {
+        margin: 10px auto;
+        height: 30px;
+        width: 200px;
+        border-bottom: solid 1px #eee;
+        font-size: 18px;
+        line-height: 30px;
+        overflow: hidden;
+    }
+
+    ul li a {
+        text-decoration: none;
+    }
+
+    .tips {
+        position: absolute;
+        padding: 0 10px;
+        height: 26px;
+        border: solid 1px #fff;
+        border-radius: 3px;
+        font-size: 16px;
+        background-color: #EEEEEE;
+        line-height: 26px;
+        color: salmon;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <ul>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+                <li><a href="###" title="四川女老师为赚外快被骗百万 父亲跳楼自杀">四川女老师为赚外快被骗百万 父亲跳楼自杀</a></li>
+            </ul>
+            <div class="tips"></div>
+        </div>
+    </div>
+    <script src="public/js/jquery-3.1.0.js"></script>
+    <script>
+    $(function() {
+        var title = "";
+        $("ul>li").mouseenter(function(event) {
+            var ta = $(this).find("a");
+            title = ta.attr('title');
+            ta.removeAttr('title');
+            var x = event.pageX + 10;
+            var y = event.pageY + 15;
+            $(".tips").text(title).css({
+                left: x,
+                top: y
+            }).fadeIn();
+        });
+        $("ul>li").mouseleave(function(event) {
+        	var ta = $(this).find("a");
+        	ta.attr('title', title);
+        	$(".tips").hide();
+        });
+        $("ul>li").mousemove(function(envent) {
+            var x = event.pageX + 10;
+            var y = event.pageY + 15;
+            $(".tips").text(title).css({
+                left: x,
+                top: y
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>

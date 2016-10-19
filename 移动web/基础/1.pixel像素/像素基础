@@ -1,0 +1,18 @@
+为什么设定的像素变成了320x568?
+dpr = 2(默认缩放比)
+
+px:css piexls 逻辑像素,浏览器使用的抽象单位
+
+dp,pt:device independent pixels
+
+dpr:devicePixelRatio 设备像素缩放比
+
+1px = (dpr)*(dpr)*dp
+
+//----------------------------------------
+
+DPI:打印机每英寸可以喷的墨汁点(印刷行业)
+PPI:屏幕每英寸的像素输了,即单位像素密度
+单位为硬件像素 不是px
+
+

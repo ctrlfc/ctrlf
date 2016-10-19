@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="public/style/reset.css">
+    <link rel="stylesheet" href="public/style/bootstrap.min.css">
+    <title>文本滚动</title>
+    <style type="text/css">
+    .boxmain {
+        position: relative;
+        overflow: hidden;
+        width: 200px;
+        height: 30px;
+        border: solid 1px #eee;
+    }
+
+    .boxmain ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 150px;
+    }
+
+    .boxmain ul li {
+        width: 200px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .boxmain ul li a {
+        display: block;
+        padding-left: 20px;
+        height: 30px;
+        width: 200px;
+        overflow: hidden;
+        line-height: 30px;
+        text-decoration: none;
+        background-image: url("public/img/gongg.gif");
+        background-repeat: no-repeat;
+        background-position: 0 center;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="boxmain">
+                <ul>
+                    <li><a href="###">1四川女老师为赚外快被骗百万 </a></li>
+                    <li><a href="###">2四川女老师为赚外快被骗百万 </a></li>
+                    <li><a href="###">3四川女老师为赚外快被骗百万 </a></li>
+                    <li><a href="###">4四川女老师为赚外快被骗百万 </a></li>
+                    <li><a href="###">1四川女老师为赚外快被骗百万 </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="public/js/jquery-3.1.0.js"></script>
+    <script>
+    var i = 0;
+
+    function one() {
+        var dx = -30 * i;
+        $(".boxmain>ul").animate({
+            "top": dx
+        }, function() {
+            i++;
+            if (i > 4) {
+                i = 0;
+                $(".boxmain>ul").css({
+                    "top": 0
+                });
+            }
+        });
+    }
+    setInterval(one, 2000);
+    </script>
+</body>
+
+</html>

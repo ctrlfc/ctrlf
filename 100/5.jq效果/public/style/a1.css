@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #abc;
+	color: royalblue;
+}
+
+#header{
+	height: 150px;
+	background-color:white;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header #a{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color:#abc;
+	margin-left:10px;
+	cursor: pointer;
+}
+#header #b{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color:#cba;
+	margin-left:10px;
+	cursor: pointer;
+}

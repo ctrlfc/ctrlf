@@ -1,0 +1,115 @@
+/*全局样式*/
+*{
+    margin:0;
+    padding:0;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+.wrapper{
+    width:100%;
+    height:100%;
+    background: #dddddd;
+}
+
+/*头部样式*/
+header h1{
+    background: #0f4d92;
+
+    color:#ffffff;
+    padding:5px;
+    text-align: center;
+
+    text-shadow: 1px 1px 5px #000000;
+}
+nav{
+    background: #686868;
+    height:40px;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color:#fff;
+    background: #444444;
+    padding:5px 10px;
+    margin:5px 10px;
+    border-radius: 10px;
+}
+.active{
+    color:#0099CC;
+    background: #222222;
+    margin-top: 1px;
+}
+
+/*内容样式*/
+#addtodo,#setting{
+    display: none;
+}
+
+section article{
+    background: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+section article:after{
+    content:'';
+    clear: both;
+    display: block;
+}
+section article time{
+    font-size: 0.7em;
+    color:#999999;
+    font-family: "微软雅黑";
+}
+section article .a{
+    padding-top: 5px;
+    padding-right: 10px;
+    float: left;
+}
+section article .c{
+    margin-left: 20px;
+    float: right;
+}
+section article .c button{
+    background: #ad390c;
+    color:#ffffff;
+    border-radius: 5px;
+    border :0;
+    padding: 7px;
+    cursor: pointer;
+}
+
+section article .b{
+    float: left;
+}
+
+/*
+ *  第二页
+ */
+section form{
+    margin: 0 10px;
+}
+section form *{
+    width:100%;
+    font-size: 1.1em;
+}
+section form label {
+    padding: 10px 0 5px 0;
+    font-weight: bold;
+}
+section form button {
+    padding: 10px;
+    font-weight: bold;
+    background: #61ce3b;
+    border-radius: 5px;
+    cursor: pointer;
+}

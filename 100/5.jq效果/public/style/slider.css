@@ -1,0 +1,88 @@
+/* 轮播 */
+
+.slider,
+.ebook-slider,
+.tap {
+    right: 0;
+    top: 0;
+    width: 400px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.innerwrapper {
+    left: -400px;
+    width: 2400px;
+    height: 100px;
+    list-style: none;
+}
+
+.innerwrapper li {
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+
+.innerwrapper li a {
+    display: block;
+}
+
+.innerwrapper li a img {
+    display: block;
+    width: 400px;
+    height: 100px;
+}
+
+.btnleft {
+    top: 20px;
+    left: 0;
+    width: 20px;
+    height: 50px;
+    background-color: #000;
+    background-image: url('../img/nav.png');
+    background-position: -10px 4px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.btnright {
+    top: 20px;
+    right: 0;
+    width: 20px;
+    height: 50px;
+    background-color: #000;
+    background-image: url('../img/nav.png');
+    background-position: -54px 4px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+
+/* 按你 */
+
+.controls {
+    width: 96px;
+    left: 152px;
+    bottom: 10px;
+    list-style: none;
+}
+
+.controls ul {
+	bottom: 0;
+}
+
+.controls li {
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    float: left;
+    margin-right: 2px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.controls li.current {
+    background-color: aqua;
+    color: brown;
+}
