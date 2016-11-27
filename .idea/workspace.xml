@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be30a8b9-f70e-4b8a-85d7-fe9f27e96dba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ajax/2_form_get.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ajax/2_form_post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ajax/2_get_post.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/640.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/vue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/vue.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/声明式渲染.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/处理用户输入.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/条件与循环.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/用组件构建(应用).html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue/组件化.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/src/App.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/src/assets/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue2/vue2_pj/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/640.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/vue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/vue.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/声明式渲染.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/处理用户输入.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/条件与循环.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/用组件构建(应用).html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vue_start/组件化.png" afterPath="" />
     </list>
     <ignored path="ctrlf.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,7 +56,7 @@
       <file leaf-file-name="2_form_get.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ajax/2_form_get.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="378">
               <caret line="14" column="0" selection-start-line="10" selection-start-column="12" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
@@ -377,7 +382,7 @@
     <option name="totallyTimeSpent" value="68459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1276" height="777" extended-state="6" />
+    <frame x="4" y="23" width="1276" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26489028" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -622,7 +627,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ajax/2_form_get.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="378">
           <caret line="14" column="0" selection-start-line="10" selection-start-column="12" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
