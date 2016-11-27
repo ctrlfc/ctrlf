@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>input</title>
+</head>
+<body>
+    表单:数据的提交
+        action:数据提交的地址,默认当前页面
+        method:数据提交的方式,默认get方法
+            1.get
+                url长度的限制的原因,我们不能通过get方式传递过多的数据
+            2.post
+                理论上无限制
+                php默认8m限制
+
+        enctype:提交的数据格式,application/x-www-form-urlencoded
+
+    name的作用在表单中比id更大
+    <form method="post" action="2_get_post.php">
+        <input type="text" name="username"/>
+        <input type="text" name="age"/>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
