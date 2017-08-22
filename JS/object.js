@@ -96,5 +96,45 @@ test.foo
 // 唯一一个处理属性但是不查找原型链的函数
 
 // 修改object.prototype
-object.prototype.bar = 1;
+Object.prototype.bar = 1;
 let foo = { goo: undefined };
+
+foo.bar; // 1
+"bar" in foo; // true
+
+// 是否自定义
+foo.hasOwnProperty("bar"); // false
+foo.hasOwnProperty("goo"); // true
+
+/* 作为属性 */
+
+const foo = {
+    hasOwnProperty: function() {
+        return false;
+    },
+    bar: "Here be dragons"
+};
+
+foo.hasOwnProperty("bar"); // 总是返回 false
+
+//使用其它对象的 hasOwnProperty，并将其上下文设置为foo
+({}.hasOwnProperty.call(foo, "bar")); // true
+
+/* for in 循环 */
+
+// for..in会遍历所有的原型链属性
+
+// 修改 Object.prototype
+Object.prototype.bar = 1;
+
+const foo = { moo: 2 };
+for (let i in foo) {
+    console.log(foo[i]); // 输出两个属性：bar 和 moo
+}
+
+// foo 变量是上例中的
+for (let i in foo) {
+    if (foo.hasOwnProperty(i)) {
+        console.log(i); // 输出moo
+    }
+}
