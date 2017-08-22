@@ -40,7 +40,7 @@ function Bar() {}
 
 // 设置Bar的prototype属性为Foo的实例对象
 
-Bar.prototype = new Foo();//不能用Foo,因为不会执行Foo原型,而是指向Foo,变成了Function.prototype
+Bar.prototype = new Foo(); //不能用Foo,因为不会执行Foo原型,而是指向Foo,变成了Function.prototype
 
 Bar.prototype.foo = "Hello world";
 
@@ -86,3 +86,15 @@ test.foo
 /* 原型性能 */
 
 // for..in 会遍历整个原型链
+
+// 绝对不要扩展内置类型的原型
+
+/* hasOwnProperty函数 */
+
+// 为了判断一个对象是否包含自定义属性而不是原型链上的属性,就使用hasOwnProperty(判断属性是否为undefined是不够的,它可能存在,只不过被赋值为undefined)
+
+// 唯一一个处理属性但是不查找原型链的函数
+
+// 修改object.prototype
+object.prototype.bar = 1;
+let foo = { goo: undefined };
