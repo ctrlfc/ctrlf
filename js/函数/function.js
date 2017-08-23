@@ -112,3 +112,5 @@ foo.hack = function() {
 
 // 上面的代码不会改变定义在 Counter 作用域中的 count 变量的值，因为 foo.hack 没有 定义在那个作用域内。
 // 它将会创建或者覆盖全局变量 count。
+
+// 循环中的闭包
