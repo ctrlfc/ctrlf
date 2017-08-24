@@ -10,4 +10,10 @@
 
 // do..whlie 至少一次循环 ++至少加一次变量
 
-//
+// try catch
+
+// throw
+
+//  返回 return (undefined)
+
+//  退出 break (循环和switch)           
