@@ -114,3 +114,41 @@ foo.hack = function() {
 // 它将会创建或者覆盖全局变量 count。
 
 // 循环中的闭包
+
+for (let i = 0; i < 10; i++) {
+    setTimeout(function() {
+        console.log(i);
+    }, 1000);
+}
+//输出10个10(异步)
+
+// 需要每次创建i的拷贝 和 _this差不多
+
+// ==>改成自执行函数
+
+for (let i = 0; i < 10; i++) {
+    (function(e) {
+        setTimeout(function() {
+            console.log(e);
+        }, 1000);
+    })(i);
+}
+
+// 这时e 有 i的拷贝,并对e有了引用,而这个值是不会被循环改变的
+
+for (let i = 0; i < 10; i++) {
+    setTimeout(
+        (function(e) {
+            return function() {
+                console.log(e);
+            };
+        })(i),
+        1000
+    );
+}
+
+//返回一个函数这样也行
+
+
+// argument 对象
+
