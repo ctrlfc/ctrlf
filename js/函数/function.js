@@ -149,6 +149,45 @@ for (let i = 0; i < 10; i++) {
 
 //返回一个函数这样也行
 
-
 // argument 对象
 
+// 特别变量argument,维护所有传递到这个函数的参数列表
+
+// argument是一个object而不是array 但又有length属性
+
+//转化为数组
+
+Array.prototype.slice.call(argument); // 听说很慢
+
+// 传递参数(推荐做法)
+
+function foo() {
+    bar.apply(null, arguments);
+}
+
+function bar(a, b, c) {
+    //干活
+}
+
+// 还有一种(真滴有点麻烦了,但俗话说写得越多 性能越好 不知道是不是)
+
+function Foo() {}
+
+Foo.prototype.method = function(a, b, c) {
+    console.log(this, a, b, c);
+};
+
+//创建一个解绑器"method"
+//输入参数为:this,arg1,arg2...argN
+
+Foo.method = function() {
+    //结果:Foo.prototype.method.call(this,arg1,arg2...argN)
+    Function.call.apply(Foo.prototype.method, arguments);
+};
+
+// =
+
+Foo.method = function() {
+    const args = Array.prototype.slice.call(arguments);
+    Foo.prototype.method.apply(args[0], args.slice(1));
+};
