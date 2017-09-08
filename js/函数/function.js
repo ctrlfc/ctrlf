@@ -191,3 +191,6 @@ Foo.method = function() {
     const args = Array.prototype.slice.call(arguments);
     Foo.prototype.method.apply(args[0], args.slice(1));
 };
+
+// 自动更新
+
