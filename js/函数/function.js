@@ -194,3 +194,57 @@ Foo.method = function() {
 
 // 自动更新
 
+// arguments 对象为它的内部属性和函数形式创建了getter和setter方法
+
+// so 改变形式参数的值会改变arguments对象的值
+
+function foo(a, b, c) {
+    arguments[0] = 2;
+    a;
+
+    b = 4;
+    arguments[1];
+
+    var d = c;
+    d = 9;
+    c;
+}
+
+foo(1, 2, 3);
+// 2,4,3
+
+// 性能真相
+
+// es5下面
+
+function f(a) {
+    "use strict";
+    a = 42;
+    return [a, arguments[0]];
+}
+
+var pair = f(17);
+
+// 判断真假
+console.assert(pair[0] === 42);
+console.assert(pair[1] === 17);
+
+// pair[0] 居然是42 真相真的建立了
+
+
+// arguments.callee 会显著影响性能
+
+function foo() {
+    arguments.callee;
+    arguments.callee.caller;
+}
+
+function bigLoop() {
+    for (var i = 0; i < 1e5; i++) {
+        foo();
+    }
+}
+
+// 因为它需要知道它自己和它的调用者。 这不仅抵消了内联函数带来的性能提升，而且破坏了封装，因此现在函数可能要依赖于特定的上下文。
+
+// (垃圾)
