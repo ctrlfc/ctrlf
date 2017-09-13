@@ -250,3 +250,8 @@ function bigLoop() {
 // (垃圾)
 
 // 构造函数
+
+// 只能 通过new 方式调用函数都被认为是构造函数
+
+// 内部 this 指向的是object ,这个新创建的对象的 prototype 被指向到构造函数的 prototype。
+
