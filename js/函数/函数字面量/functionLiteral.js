@@ -9,3 +9,5 @@ const add = function(a, b) {
 //3.参数,参数名就是变量
 
 //4.语句
+
+console.log(add(1,2))
