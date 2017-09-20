@@ -20,3 +20,5 @@ getElement("myBoxDiv")
             .slide(400, 40, 200, 200);
     })
     .tip("This box is resizeable");
+
+// 就是链式啊 我晕
