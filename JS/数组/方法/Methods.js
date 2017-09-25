@@ -22,9 +22,28 @@ var add = function(a, b) {
     return a + b;
 };
 
-var mult = function (a, b) {
+var mult = function(a, b) {
     return a + b;
-}
+};
 
-// 调用data 的ruduce 方法,传入add函数u
+// 调用data 的ruduce 方法,传入add函数
 
+var sum = data.reduce(add, 0); // sum 108 从下标为0 开始 + vlaue 为0 的参数
+
+// 再次调用reduce方法,这次传入mult函数
+
+var product = data.reduce(mult, 1); // 7418880 同上
+
+// 可以直接添加数组方法,因为是对象
+
+data.total = function() {
+    return this.reduce(add, 0);
+};
+
+total = data.total();
+
+
+// "total"是字符串,增加一个不会改变它的length.当作为整数时才是数组最强的时候
+
+// object.create对于数组是没有意义的,产生一个对象而不是数组. 产生的数组对象将继承这个数组的值和方法,但它没有那个特殊的length属性
+// 所以create产生的不是js中的数组
