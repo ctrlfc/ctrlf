@@ -1,7 +1,7 @@
 // sort 是排序的方法 ,但不能正确的排序
 
 var n = [4, 8, 15, 16, 23, 42];
-n.sort();
+// n.sort();
 
 // 你的比较函数一个接收2个参数, 并且如果这个两个参数相等则返回0, 如果第1个参数应该排列在前面, 则返回一个负数 第2个参数在后面 就返回一个正数
 
@@ -75,9 +75,27 @@ s.sort(by("first")).sort(by("last"));
 
 // 当o[name]和p[name]相等,次要比较函数被用来
 
-var by = function (name, minor) {
-    var a ,b
-    return function (o, p) {
-        // if(o &&p&&typeof===)
-    }    
-}
+var by = function(name, minor) {
+    return function(o, p) {
+        var a, b;
+        if (o && p && typeof o === "object" && typeof p === "objetc") {
+            a = o[name];
+            b = p[name];
+            if (a === b) {
+                return typeof minor === "function" ? minor(o, p) : 0;
+            }
+            if (typeof a === typeof b) {
+                return a < b ? -1 : 1;
+            }
+            return typeof a < typeof b ? -1 : 1;
+        } else {
+            // throw {
+            //     name: "Error",
+            //     message: "Expected an object when sorting by" + name
+            // };
+        }
+    };
+};
+
+s.sort(by("last", by("first")));
+console.log(s);
