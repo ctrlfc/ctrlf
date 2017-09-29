@@ -9,3 +9,5 @@ console.log(Math.PI.toFixed(2))
 console.log(Math.PI.toFixed(7))
 console.log(Math.PI.toFixed(16))
 console.log(Math.PI.toFixed())
+
+// 结果
