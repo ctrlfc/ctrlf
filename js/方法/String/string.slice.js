@@ -8,3 +8,4 @@ var text = "andinithesays'anydamnfoolcould";
 var a = text.slice(18);
 var b = text.slice(0, 3);
 var c = text.slice(-5);
+var d = text.slice(19, 32);
