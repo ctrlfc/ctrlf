@@ -38,5 +38,5 @@ String.method(
             });
         };
     })()
-);
+); 
 console.log("<&>".entityify());
