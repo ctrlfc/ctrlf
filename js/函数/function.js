@@ -231,7 +231,6 @@ console.assert(pair[1] === 17);
 
 // pair[0] 居然是42 真相真的建立了
 
-
 // arguments.callee 会显著影响性能
 
 function foo() {
@@ -255,3 +254,18 @@ function bigLoop() {
 
 // 内部 this 指向的是object ,这个新创建的对象的 prototype 被指向到构造函数的 prototype。
 
+// 如果被调用的函数没有显式的return表达式,则隐式的会返回this对象 也就是新创建的对象
+
+function foo() {
+    this.bla = 1;
+}
+
+Foo.prototype.test = function() {
+    console.log(this.bla);
+};
+
+var test = new Foo();
+
+// 上面代码把Foo作为构造函数使用,并设置新创建对象的prototype为Foo.prototype
+
+// 显式的return表达式将会影响返回结果,但仅限于返回的是一个对象
