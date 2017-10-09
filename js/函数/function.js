@@ -274,3 +274,12 @@ function Bar() {
     return 2;
 }
 new Bar(); //返回新创建的对象
+
+function Test() {
+    this.value = 2;
+
+    return {
+        foo: 1
+    };
+}
+new Test(); //返回的对象
