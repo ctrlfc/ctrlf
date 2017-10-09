@@ -269,3 +269,8 @@ var test = new Foo();
 // 上面代码把Foo作为构造函数使用,并设置新创建对象的prototype为Foo.prototype
 
 // 显式的return表达式将会影响返回结果,但仅限于返回的是一个对象
+
+function Bar() {
+    return 2;
+}
+new Bar(); //返回新创建的对象
