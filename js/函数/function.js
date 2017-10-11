@@ -283,3 +283,24 @@ function Test() {
     };
 }
 new Test(); //返回的对象
+
+// new Bar() 返回的是新创建的的对象,而不是数字的字面值2.因此new Bar().constructor === Bar,但是如果返回的是数字对象,结果就不同了
+
+function Bar() {
+    return new Number(2);
+}
+new Bar().constructor === Number;
+
+// 这里得到的 new Test()是函数返回的对象,而不是通过new关键字新创建的对象,因此:
+
+new Test().value === undefined;
+new Test().foo === 1;
+
+// 如果new被遗漏了,则函数不会返回新创建的对象
+
+function Foo() {
+    this.bla = 1; // 获取设置全局参数
+}
+Foo(); // undefined
+
+// 虽然上例在有些情况下也能正常运行,但是由于JavaScript中this的工作原理,这里的this指全局
