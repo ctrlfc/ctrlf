@@ -304,3 +304,23 @@ function Foo() {
 Foo(); // undefined
 
 // 虽然上例在有些情况下也能正常运行,但是由于JavaScript中this的工作原理,这里的this指全局
+
+// 工厂模式
+
+// 为了不使用 new 关键字,构造函数必须显式的返回一个值
+
+function Bar() {
+    var value = 1;
+    return {
+        method: function() {
+            return value;
+        }
+    };
+}
+Bar.prototype = {
+    foo: function() {}
+};
+
+new Bar();
+Bar();
+
