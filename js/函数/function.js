@@ -326,4 +326,17 @@ Bar();
 
 // 上面两种对Bar函数的调用返回的值完美相同,一个新创建的拥有method属性的对象呗返回,其实这里创建了一个闭包
 
-// 
+//  还需要注意, new Bar()并不会改变返回对象的原型(也就是返回对象的原型不会指向Bar.prototype).
+//  因为构造函数的原型会被指向到刚刚创建的新对象, 而这里的Bar没有把这个新对象返回(而是返回了一个包含method属性的自定义对象)
+
+// 在上面的例子中,使用或者不使用new关键字没有功能性区别
+
+// 上面两种方式创建的对象不能访问Bar原型链上的属性,如下所示
+
+var bar1 = new Bar();
+typeof bar1.method;
+typeof bar1.foo;
+
+var bar2 = Bar();
+typeof bar2.method;
+typeof bar2.foo;
