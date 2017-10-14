@@ -340,3 +340,13 @@ typeof bar1.foo;
 var bar2 = Bar();
 typeof bar2.method;
 typeof bar2.foo;
+
+// 通过工厂模式创建新对象
+
+// 我们常听到的一条忠告是不要使用new关键字来调用函数,因为如果忘记他就会导致错误
+
+// 为了创建新对象,我们可以创建一个工厂方法,并且在方法内构造一个新对象
+
+function Foo() {
+    var obj = {};
+}
