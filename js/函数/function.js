@@ -349,4 +349,7 @@ typeof bar2.foo;
 
 function Foo() {
     var obj = {};
+    obj.value = "blub";
+
+    var private = 2;
 }
