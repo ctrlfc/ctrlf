@@ -352,4 +352,22 @@ function Foo() {
     obj.value = "blub";
 
     var private = 2;
+    obj.someMethod = function(value) {
+        this.value = value;
+    };
+
+    obj.getPrivate = function() {
+        return private;
+    };
+    return obj;
 }
+
+// 虽然上面的方式比起new的调用方式不容易出错,并且可以充分利用 私有变量 带来的便利,但是还是有一些不好的地方
+
+// 1.会占用更多的内存,因为新创建对象不能共享原型上的方法
+// 2.为了实现继承,工厂方法需要从另外一个对象拷贝所有属性,或者把一个对象作为新创建对象的原型
+// 3.放弃原型链仅仅是因为防止遗漏new带来的问题,这似乎和语言本身的思想相违背
+
+// 总结
+
+// 虽然遗漏 new 关键字可能会导致问题,
