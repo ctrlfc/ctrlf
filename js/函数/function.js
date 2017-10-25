@@ -384,3 +384,15 @@ function test() {
     }
     console.log(i); // 10
 }
+
+// return左括号不在一行的话 会出错
+
+function add(a, b) {
+    return;
+    a + b;
+}
+
+console.log(add(1, 2));
+// undefined
+
+// js中没有显示的命名空间,这就意味着所有对象
