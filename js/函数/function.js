@@ -422,7 +422,16 @@ foo; //21
 
 // 在函数test内不使用var关键字声明fo变量将会覆盖外部的同名变量.起初这看起来并不是大问题,但是当有成千上万行代码时,不使用var 声明变量将会带来难以追踪的bug
 
-var items = [/* 数组 */];
-for(var i = 0; i < 10; i++) {
+var items = [
+    /* 数组 */
+];
+for (var i = 0; i < 10; i++) {
     subLoop();
+}
+function subLoop() {
+    // subLoop 函数作用域
+    for (i = 0; i < 10; i++) {
+        // 没有使用 var 声明变量
+        // 干活
+    }
 }
