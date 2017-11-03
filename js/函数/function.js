@@ -435,3 +435,7 @@ function subLoop() {
         // 干活
     }
 }
+
+// 外部循环咋第一次调用subLoop之后就会终止,因为subLoop覆盖了全局变量i.在第二个for
+
+
