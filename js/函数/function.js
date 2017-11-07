@@ -441,3 +441,17 @@ function subLoop() {
 
 // 局部变量
 // JavaScript 中局部变量只可能通过两种方式声明，一个是作为函数参数，另一个是通过 var 关键字声明。
+
+// 全局变量
+var foo = 1;
+var bar = 2;
+var i = 2;
+
+function test(i) {
+    // 函数 test 内的局部作用域
+    i = 5;
+
+    var foo = 3;
+    bar = 4;
+}
+test(10);
