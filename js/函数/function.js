@@ -455,3 +455,5 @@ function test(i) {
     bar = 4;
 }
 test(10);
+
+// foo 和 i 是函数 test 内的局部变量，而对 bar 的赋值将会覆盖全局作用域内的同名变量。
