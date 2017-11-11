@@ -461,3 +461,20 @@ test(10);
 // 变量声明提升（Hoisting）
 
 // JavaScript 会提升变量声明。这意味着 var 表达式和 function 声明都将会被提升到当前作用域的顶部。
+
+bar();
+var bar = function() {};
+var someValue = 42;
+
+test();
+function test(data) {
+    if (false) {
+        goo = 1;
+
+    } else {
+        var goo = 2;
+    }
+    for(var i = 0; i < 100; i++) {
+        var e = data[i];
+    }
+}
