@@ -478,3 +478,6 @@ function test(data) {
         var e = data[i];
     }
 }
+
+// 上面代码在运行之前将会被转化。JavaScript 将会把 var 表达式和 function 声明提升到当前作用域的顶部。
+
