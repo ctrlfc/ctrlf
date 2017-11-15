@@ -470,11 +470,10 @@ test();
 function test(data) {
     if (false) {
         goo = 1;
-
     } else {
         var goo = 2;
     }
-    for(var i = 0; i < 100; i++) {
+    for (var i = 0; i < 100; i++) {
         var e = data[i];
     }
 }
@@ -489,11 +488,10 @@ function test(data) {
     var goo, i, e; // 没有块级作用域，这些变量被移动到函数顶部
     if (false) {
         goo = 1;
-
     } else {
         goo = 2;
     }
-    for(i = 0; i < 100; i++) {
+    for (i = 0; i < 100; i++) {
         e = data[i];
     }
 }
@@ -509,3 +507,30 @@ test();
 // 在原来代码中，if 表达式看起来修改了全局变量 goo，实际上在提升规则被应用后，却是在修改局部变量。
 
 // 如果没有提升规则（hoisting）的知识，下面的代码看起来会抛出异常 ReferenceError。
+
+// 检查 SomeImportantThing是否已经被初始化
+
+if (!SomeImportantThing) {
+    var SomeImportantThing = {};
+}
+
+// 实际上,上面的代码正常运行,因为var表达式会被提升到全局作用域的顶部
+
+var SomeImportantThing;
+
+// 其他一些代码,可能会初始化SomeImportantThing,也可能不会
+
+// 检查是否已经被初始化
+
+if (!SomeImportantThing) {
+    SomeImportantThing = {};
+}
+
+// 生动阐明变量提升的变化
+
+var myvar = "myvalue";
+
+(function() {
+    alert(myvar); //undefined
+    var myvar = "local value";
+})();
