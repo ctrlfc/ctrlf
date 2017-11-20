@@ -17,3 +17,12 @@
 // 虽然在 JavaScript 中数组是对象，但是没有好的理由去使用 for in 循环 遍历数组。 相反，有一些好的理由不去使用 for in 遍历数组。
 
 //由于 for in 循环会枚举原型链上的所有属性，唯一过滤这些属性的方式是使用 hasOwnProperty 函数， 因此会比普通的 for 循环慢上好多倍。
+
+// 遍历
+
+// 为了达到遍历数组的最佳性能，推荐使用经典的 for 循环。
+
+var list = [1, 2, 3, 4, 5, ...100000000];
+for (var i = 0, l = list.length; i < l; i++) {
+    console.log(list[i]);
+}
