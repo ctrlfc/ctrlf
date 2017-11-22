@@ -33,4 +33,13 @@ for (var i = 0, l = list.length; i < l; i++) {
 
 // 实际上，不使用缓存数组长度的方式比缓存版本要慢很多。
 
+// length属性
 
+// length属性的getter方式会简单的返回数组的长度,而setter方式会截断数组
+
+var foo = [1, 2, 3, 4, 5, 6];
+foo.length = 3;
+foo;
+
+foo.length = 6;
+foo;
