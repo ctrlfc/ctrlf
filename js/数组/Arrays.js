@@ -47,3 +47,10 @@ foo;
 // 译者注： 在 Firebug 中查看此时 foo 的值是： [1, 2, 3, undefined, undefined, undefined] 但是这个结果并不准确，
 // 如果你在 Chrome 的控制台查看 foo 的结果，你会发现是这样的：[1, 2, 3] 因为在 JavaScript 中 undefined 是一个变量，
 // 注意是变量不是关键字，因此上面两个结果的意义是完全不相同的。
+
+// 译者注：为了验证，我们来执行下面代码，看序号 5 是否存在于 foo 中。
+5 in foo; // 不管在 Firebug 或者 Chrome 都返回 false
+foo[5] = undefined;
+5 in foo; // 不管在 Firebug 或者 Chrome 都返回 true
+
+// 为 length 设置一个更小的值会截断数组，但是增大 length 属性值不会对数组产生影响。
