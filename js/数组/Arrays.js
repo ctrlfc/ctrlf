@@ -53,4 +53,4 @@ foo;
 foo[5] = undefined;
 5 in foo; // 不管在 Firebug 或者 Chrome 都返回 true
 
-// 为 length 设置一个更小的值会截断数组，但是增大 length 属性值不会对数组产生影响
+// 为 length 设置一个更小的值会截断数组，但是增大 length 属性值不会对数组产生影响。
