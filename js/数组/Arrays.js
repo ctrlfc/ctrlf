@@ -54,3 +54,8 @@ foo[5] = undefined;
 5 in foo; // 不管在 Firebug 或者 Chrome 都返回 true
 
 // 为 length 设置一个更小的值会截断数组，但是增大 length 属性值不会对数组产生影响。
+
+// 结论
+
+// 为了更好的性能，推荐使用普通的 for 循环并缓存数组的 length 属性。 
+// 使用 for in 遍历数组被认为是不好的代码习惯并倾向于产生错误和导致性能问题。
