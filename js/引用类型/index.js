@@ -29,3 +29,15 @@ null         ==   undefined     // true
 
 // 严格等于操作符由三个等号组成：===
 
+// 不像普通的等于操作符，严格等于操作符不会进行强制类型转换。
+
+""           ===   "0"           // false
+0            ===   ""            // false
+0            ===   "0"           // false
+false        ===   "false"       // false
+false        ===   "0"           // false
+false        ===   undefined     // false
+false        ===   null          // false
+null         ===   undefined     // false
+" \t\r\n"    ===   0             // false
+
