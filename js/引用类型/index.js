@@ -41,3 +41,5 @@ false        ===   null          // false
 null         ===   undefined     // false
 " \t\r\n"    ===   0             // false
 
+// 上面的结果更加清晰并有利于代码的分析。如果两个操作数类型不同就肯定不相等也有助于性能的提升。
+
