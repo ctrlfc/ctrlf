@@ -72,3 +72,24 @@ foo === foo;                 // true
 // 尽管 instanceof 还有一些极少数的应用场景，
 // typeof 只有一个实际的应用（译者注：这个实际应用是用来检测一个对象是否已经定义或者是否已经赋值），
 // 而这个应用却不是用来检查对象的类型。
+
+// JavaScript 类型表格
+
+Value               Class      Type
+-------------------------------------
+"foo"               String     string
+new String("foo")   String     object
+1.2                 Number     number
+new Number(1.2)     Number     object
+true                Boolean    boolean
+new Boolean(true)   Boolean    object
+new Date()          Date       object
+new Error()         Error      object
+[1,2,3]             Array      object
+new Array(1, 2, 3)  Array      object
+new Function("")    Function   function
+/abc/g              RegExp     object (function in Nitro/V8)
+new RegExp("meow")  RegExp     object (function in Nitro/V8)
+{}                  Object     object
+new Object()        Object     object
+
