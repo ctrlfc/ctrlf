@@ -93,3 +93,7 @@ new RegExp("meow")  RegExp     object (function in Nitro/V8)
 {}                  Object     object
 new Object()        Object     object
 
+// 上面表格中，Type 一列表示 typeof 操作符的运算结果。可以看到，这个值在大多数情况下都返回 "object"。
+
+// Class 一列表示对象的内部属性 [[Class]] 的值。
+
