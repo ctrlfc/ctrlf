@@ -96,4 +96,21 @@ new Object()        Object     object
 // 上面表格中，Type 一列表示 typeof 操作符的运算结果。可以看到，这个值在大多数情况下都返回 "object"。
 
 // Class 一列表示对象的内部属性 [[Class]] 的值。
+// 为了获取对象的 [[Class]]，我们需要使用定义在 Object.prototype 上的方法 toString。
 
+// JavaScript 标准文档中定义: [[Class]] 的值只可能是下面字符串中的一个：
+// Arguments, Array, Boolean, Date, Error, Function, JSON, Math, Number, Object, RegExp, String.
+
+// 对象的类定义
+
+// JavaScript 标准文档只给出了一种获取 [[Class]] 值的方法，那就是使用 Object.prototype.toString。
+
+function is(type, obj) {
+    var clas = Object.prototype.toString.call(obj).slice(8, -1);
+    return obj !== undefined && obj !== null && clas === type;
+}
+
+is('String', 'test'); // true
+is('String', new String('test')); // true
+
+// 上面例子中，Object.prototype.toString 方法被调用，this 被设置为了需要获取 [[Class]] 值的对象
