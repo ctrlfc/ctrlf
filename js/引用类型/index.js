@@ -120,3 +120,17 @@ is('String', new String('test')); // true
 Object.prototype.toString.call([])    // "[object Array]"
 Object.prototype.toString.call({})    // "[object Object]"
 Object.prototype.toString.call(2)    // "[object Number]"
+
+// S5 提示: 在 ECMAScript 5 中，为了方便，对 null 和 undefined 
+// 调用 Object.prototype.toString 方法，
+// 其返回值由 Object 变成了 Null 和 Undefined。
+
+// 译者注：这种变化可以从 IE8 和 Firefox 4 中看出区别，如下所示：
+
+// IE8
+Object.prototype.toString.call(null)    // "[object Object]"
+Object.prototype.toString.call(undefined)    // "[object Object]"
+
+// Firefox 4
+Object.prototype.toString.call(null)    // "[object Null]"
+Object.prototype.toString.call(undefined)    // "[object Undefined]"
