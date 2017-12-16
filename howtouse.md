@@ -7,10 +7,16 @@
 <!doctype html>
 ```
 
-**charset( 字符类型 )**: 正确声明 charset meta(UTF-8)
+**charset( 字符类型 )**: 正确声明 `charset` meta(UTF-8)
 
 ```html
 <!-- 设置文档的字符编码>
 <meta charset="utf-8">
 ```
-hjjd
+
+**Viewport( 视口 )**: 正确声明 `viewport` meta
+
+```html
+<!-- 响应式网页设计viewpoint声明 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
