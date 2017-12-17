@@ -134,3 +134,11 @@ Object.prototype.toString.call(undefined)    // "[object Object]"
 // Firefox 4
 Object.prototype.toString.call(null)    // "[object Null]"
 Object.prototype.toString.call(undefined)    // "[object Undefined]"
+
+
+// 测试未定义变量
+
+typeof foo !== 'undefined'
+// 上面代码会检测 foo 是否已经定义；
+// 如果没有定义而直接使用会导致 ReferenceError 的异常。
+// 这是 typeof 唯一有用的地方。
