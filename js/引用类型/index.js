@@ -134,3 +134,19 @@ Object.prototype.toString.call(undefined)    // "[object Object]"
 // Firefox 4
 Object.prototype.toString.call(null)    // "[object Null]"
 Object.prototype.toString.call(undefined)    // "[object Undefined]"
+
+
+// 测试未定义变量
+
+typeof foo !== 'undefined'
+// 上面代码会检测 foo 是否已经定义；
+// 如果没有定义而直接使用会导致 ReferenceError 的异常。
+// 这是 typeof 唯一有用的地方。
+
+// 结论
+
+// 为了检测一个对象的类型，强烈推荐使用 Object.prototype.toString 方法；
+// 因为这是唯一一个可依赖的方式。正如上面表格所示，typeof 的一些返回值在标准文档中并未定义，
+// 因此不同的引擎实现可能不同。
+
+// 除非为了检测一个变量是否已经定义，我们应尽量避免使用 typeof 操作符。
