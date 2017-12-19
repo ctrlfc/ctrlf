@@ -10,7 +10,7 @@
 **charset( 字符类型 )**: 正确声明 `charset` meta(UTF-8)
 
 ```html
-<!-- 设置文档的字符编码>
+<!-- 设置文档的字符编码 -->
 <meta charset="utf-8">
 ```
 
@@ -19,4 +19,11 @@
 ```html
 <!-- 响应式网页设计viewpoint声明 -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+**Title( 标题 )**:所有页面都使用 title(SEO:google 会计算标题中使用的字符的像素宽度,范围在 472 和 482 之间,所以平均字符数限制大约在 55 个字符左右)
+
+```html
+<!-- 文档标题 -->
+<title>网站标题不超过55个字符</title>
 ```
