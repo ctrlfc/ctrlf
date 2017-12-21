@@ -27,3 +27,10 @@
 <!-- 文档标题 -->
 <title>网站标题不超过55个字符</title>
 ```
+
+**Description(描述)**:提供`description`标签,它是唯一的同事内容不能超过 150 个字符.
+
+```html
+<!-- Meta Description -->
+<meta name="description" content="Description of the page less than 150 characters">
+```
