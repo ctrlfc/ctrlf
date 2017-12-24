@@ -178,3 +178,10 @@ new String('foo') instanceof Object; // true
 
 'foo' instanceof String; // false
 'foo' instanceof Object; // false
+
+// 有一点需要注意，instanceof 用来比较属于不同 JavaScript 上下文的对象（比如，浏览器中不同的文档结构）时将会出错，
+// 因为它们的构造函数不会是同一个对象。
+
+// 结论
+// instanceof 操作符应该仅仅用来比较来自同一个 JavaScript 上下文的自定义对象。
+// 正如 typeof 操作符一样，任何其它的用法都应该是避免的。
