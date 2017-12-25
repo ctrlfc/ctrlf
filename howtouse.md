@@ -34,3 +34,11 @@
 <!-- Meta Description -->
 <meta name="description" content="Description of the page less than 150 characters">
 ```
+
+## HTML 标签
+
+**Language tag(语言标签)**: 指定你的网站的语言标签并与当前页面语言相关联.
+
+```html
+<html lang="zh_cn">
+```
