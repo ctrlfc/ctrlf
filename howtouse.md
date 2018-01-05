@@ -63,6 +63,12 @@
 
 **Mobile Browsers**:所有页面都在移动端浏览器上通过测试(Native browser, Chrome, Safari...)。
 
-**Link checker(链接检查器)**:页面中链接没有断开,请确认你有没有404错误。
+**Link checker(链接检查器)**:页面中链接没有断开,请确认你有没有 404 错误。
 
-**Pixel perfect**:页面的像素级实现。根据设计稿的质量,你的页面可能做不到100%还原,但你的网页需要尽可能的看见设计稿。
+**Pixel perfect**:页面的像素级实现。根据设计稿的质量,你的页面可能做不到 100%还原,但你的网页需要尽可能的看见设计稿。
+
+## Webfonts
+
+**Webfont format（字体格式）**: High 现代浏览器都支持 WOFF、WOFF2、TTF 格式
+
+**Webfont size（字体大小）**: High Webfont 大小不超过 2 MB (包括所有版本在内)。
