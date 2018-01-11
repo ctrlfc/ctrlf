@@ -247,3 +247,18 @@ parseInt('010.2', 10) === 10
 !!'-1'     // true
 !!{};      // true
 !!true;    // true
+
+// 核心
+
+// 为什么不要使用 eval
+// eval 函数会在当前作用域中执行一段 JavaScript 代码字符串。
+
+var foo = 1;
+function test() {
+    var foo = 2;
+    eval('foo = 3');
+    return foo;
+}
+test(); // 3
+foo; // 1
+// 但是 eval 只在被直接调用并且调用函数就是 eval 本身时，才在当前作用域中执行。
