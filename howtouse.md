@@ -72,3 +72,15 @@
 **Webfont format（字体格式）**: High 现代浏览器都支持 WOFF、WOFF2、TTF 格式
 
 **Webfont size（字体大小）**: High Webfont 大小不超过 2 MB (包括所有版本在内)。
+
+## CSS
+
+**响应式网站设计**:网站使用响应式设计。
+
+**唯一 ID**:如果使用了 ID,确保 ID 的唯一性。
+
+**Reset CSS**:使用 CSS reset(如 reset.css,normalize.css,reboot)(如果你是用的是 CSS 框架,例如 Bootstrap 或 Foundation,则 reset css 已被包含在其中)。
+
+**CSS embed or line**:避免使用 CSS 嵌入或内联,仅用于必要的情况(例如:background-image for slider, CSS critical)。
+
+**浏览器内核前缀**:对部分属性加上浏览器内核前缀,生成你浏览器兼容的属性。
