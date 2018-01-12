@@ -262,3 +262,14 @@ function test() {
 test(); // 3
 foo; // 1
 // 但是 eval 只在被直接调用并且调用函数就是 eval 本身时，才在当前作用域中执行。
+
+var foo = 1;
+function test() {
+    var foo = 2;
+    var bar = eval;
+    bar('foo = 3');
+    return foo;
+}
+test(); // 2
+foo; // 3
+// 译者注：上面的代码等价于在全局作用域中调用 eval，和下面两种写法效果一样：
