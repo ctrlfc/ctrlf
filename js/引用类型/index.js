@@ -326,3 +326,10 @@ foo; // 3
 // 访问不存在的属性。
 // 函数参数没有被显式的传递值。
 // 任何被设置为 undefined 值的变量。
+
+// 处理 undefined 值的改变
+// 由于全局变量 undefined 只是保存了 undefined 类型实际值的副本，
+// 因此对它赋新值不会改变类型 undefined 的值。
+
+// 然而，为了方便其它变量和 undefined 做比较，
+// 我们需要事先获取类型 undefined 的值。
