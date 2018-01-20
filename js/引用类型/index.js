@@ -333,4 +333,3 @@ foo; // 3
 
 // 然而，为了方便其它变量和 undefined 做比较，
 // 我们需要事先获取类型 undefined 的值。
-MSFIDOSignatureAssertion
