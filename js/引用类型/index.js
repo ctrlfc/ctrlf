@@ -333,3 +333,22 @@ foo; // 3
 
 // 然而，为了方便其它变量和 undefined 做比较，
 // 我们需要事先获取类型 undefined 的值。
+
+// 为了避免可能对 undefined 值的改变，一个常用的技巧是使用一个传递到匿名包装器的额外参数。
+// 在调用时，这个参数不会获取任何值。
+
+var undefined = 123;
+(function(something, foo, undefined) {
+    // 局部作用域里的 undefined 变量重新获得了 `undefined` 值
+
+})('Hello World', 42);
+// 另外一种达到相同目的方法是在函数内使用变量声明。
+
+var undefined = 123;
+(function(something, foo) {
+    var undefined;
+    // ...
+
+})('Hello World', 42);
+// 这里唯一的区别是，在压缩后并且函数内没有其它需要使用 var 声明变量的情况下，
+//     这个版本的代码会多出 4 个字节的代码。
