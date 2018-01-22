@@ -73,7 +73,7 @@
 
 **Webfont size（字体大小）**: High Webfont 大小不超过 2 MB (包括所有版本在内)。
 
-## CSS
+# CSS
 
 **响应式网站设计**:网站使用响应式设计。
 
@@ -84,3 +84,8 @@
 **CSS embed or line**:避免使用 CSS 嵌入或内联,仅用于必要的情况(例如:background-image for slider, CSS critical)。
 
 **浏览器内核前缀**:对部分属性加上浏览器内核前缀,生成你浏览器兼容的属性。
+
+## 性能
+
+**连接**:将 CSS 文件连接到一个文件中。 (不适用 HTTP/2)。
+**压缩**:压缩所有 css 文件。
