@@ -352,3 +352,11 @@ var undefined = 123;
 })('Hello World', 42);
 // 这里唯一的区别是，在压缩后并且函数内没有其它需要使用 var 声明变量的情况下，
 //     这个版本的代码会多出 4 个字节的代码。
+
+
+// null 的用处
+// JavaScript 中的 undefined 的使用场景类似于其它语言中的 null，
+// 实际上 JavaScript 中的 null 是另外一种数据类型。
+
+// 它在 JavaScript 内部有一些使用场景（比如声明原型链的终结 Foo.prototype = null），
+// 但是大多数情况下都可以使用 undefined 来代替。
